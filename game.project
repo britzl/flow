@@ -1,0 +1,33 @@
+[project]
+title = Flow
+version = 1.0.0
+dependencies = 
+
+[bootstrap]
+main_collection = /examples/advanced/advanced.collectionc
+render = /builtins/render/default.renderc
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+
+[display]
+width = 1280
+height = 720
+
+[physics]
+scale = 0.02
+debug = 0
+gravity_y = 0
+
+[script]
+shared_state = 1
+
+[library]
+include_dirs = ludobits
+
+[graphics]
+max_debug_vertices = 50000
+
+[collection_proxy]
+max_count = 16
+

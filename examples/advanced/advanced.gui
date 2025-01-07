@@ -1,0 +1,16 @@
+script: "/examples/advanced/advanced.gui_script"
+nodes {
+  position {
+    x: 1148.2771
+    y: 638.22754
+  }
+  size {
+    x: 100.0
+    y: 100.0
+  }
+  type: TYPE_BOX
+  id: "box"
+  inherit_alpha: true
+}
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_PARENT

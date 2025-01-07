@@ -1,0 +1,22 @@
+name: "examples"
+scale_along_z: 0
+embedded_instances {
+  id: "go"
+  data: "components {\n"
+  "  id: \"examples\"\n"
+  "  component: \"/examples/examples.gui\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"advancedproxy\"\n"
+  "  type: \"collectionproxy\"\n"
+  "  data: \"collection: \\\"/examples/advanced/advanced.collection\\\"\\n"
+  "\"\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"basicproxy\"\n"
+  "  type: \"collectionproxy\"\n"
+  "  data: \"collection: \\\"\\\"\\n"
+  "\"\n"
+  "}\n"
+  ""
+}
