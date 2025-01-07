@@ -506,15 +506,6 @@ function M.until_flows(flows)
 	end
 end
 
-function M.ray_cast()
-	print("flow.ray_cast() is deprecated. Use synchronous ray casts released in Defold 1.2.150 instead!")
-end
-
-function M.update()
-	print("flow.update() is deprecated. You no longer need to call it!")
-end
-
-
 --- Forward any received messages in your scripts to this function
 function M.on_message(message_id, message, sender)
 	local url = msg.url()
